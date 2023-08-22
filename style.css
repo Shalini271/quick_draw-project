@@ -17,3 +17,46 @@ body {
 #sketchtobedrawn{
     color:black;
 }
+
+
+
+
+
+
+#heading1{
+    color: black;
+    background-color: white;
+    margin-top:0;
+    padding: 7px;
+
+}
+
+#showbutton{
+    float:right;
+}
+
+canvas{
+    margin-top: 100px;
+    border:groove 10px black;
+    border-radius: 5px;
+    animation-name: Animation1;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes Animation1{
+from{
+    box-shadow: 10px 10px 20px black;
+}
+to{
+    box-shadow: -10px -10px 20px grey;
+}
+}
+
+#label{
+    color:black;
+}
+
+#confidence{
+    color: black;
+}
